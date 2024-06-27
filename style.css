@@ -28,9 +28,9 @@ html {
     color: white;
     border: solid 0px;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     width: 750%;
-    font-size: 3rem;
+    font-size: 1rem;
 
 }
 
@@ -44,9 +44,9 @@ html {
     color: #052051;
     border: solid 1px #052051;
     border-radius: 20px;
-    padding: 40px;
-    width: 750%;
-    font-size: 3rem;
+    padding: 20px;
+    width: 75%;
+    font-size: 1rem;
 }
 
 
@@ -57,7 +57,7 @@ html {
     justify-content: center;
 
     text-align: center;
-    flex: 50%;
+    flex: 40%;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 40px;
@@ -102,7 +102,7 @@ html {
 
 .text-area {
     color: #052051;
-    font-size: 4rem;
+    font-size: 1.5rem;
     background-color: #F3F5FC;
     border: solid 0px transparent;
 }
@@ -125,7 +125,7 @@ html {
     margin: 10px;
     display: flex;
     color: #052051;
-    font-size:4rem;
+    font-size:2rem;
     justify-content: flex-start;
 }
 
@@ -142,16 +142,16 @@ html {
 
 .title {
     color: #343A40;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 1200;
 }
 
 .message{
-   font-size: 3rem;
+   font-size: 1.5rem;
 }
 .subtitle {
     color: #343A40;
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
