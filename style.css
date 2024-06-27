@@ -155,7 +155,7 @@ html {
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 1500px) {
+@media (max-width: 600px) {
     .flex-container {
         flex-direction: column;
         
