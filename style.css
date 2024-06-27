@@ -162,11 +162,11 @@ html {
     }
 
     .flex-item-right{
-        flex: 40%;
+        flex: 50%;
     }
 
     .flex-item-left {
-        flex: 60%;
+        flex: 50%;
     }
 
     .buttons-container {
@@ -180,7 +180,7 @@ html {
     }
    
     .buttons-item {
-       padding: 10px;
+       padding: 8px;
     
         align-items: center;
         align-content: center;
@@ -191,7 +191,7 @@ html {
     }
 
     .message{
-        margin-top: 10px;
+        margin-top: 8px;
     }
     .image{
         display: none;
@@ -199,16 +199,23 @@ html {
 
     .btn-encryp {
 
-        padding: 25px;
+        padding: 17px;
         width: 75%;
         font-size: 1.5rem;
 
     }
     
     .btn-desencryp {
-        padding:25px;
+        padding:17px;
         width: 75%;
         font-size: 1.5rem;
     }
 
+    .message{
+        font-size: 1rem;
+     }
+     .subtitle {
+         color: #343A40;
+         font-size: .8rem;
+     }
 }
