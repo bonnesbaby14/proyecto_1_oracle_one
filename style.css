@@ -1,0 +1,214 @@
+html {
+    background-color: #F3F5FC;
+    color: #072B61;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.flex-item-left {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.btn-encryp {
+
+    padding: 10px;
+    width: 60%;
+    background-color: #052051;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: solid 0px;
+    border-radius: 20px;
+    padding: 40px;
+    width: 750%;
+    font-size: 3rem;
+
+}
+
+.btn-desencryp {
+    padding: 10px;
+    width: 60%;
+    background-color: white;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #052051;
+    border: solid 1px #052051;
+    border-radius: 20px;
+    padding: 40px;
+    width: 750%;
+    font-size: 3rem;
+}
+
+
+.flex-item-right {
+
+    align-content: center;
+
+    justify-content: center;
+
+    text-align: center;
+    flex: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 14px 14px 20px 14px rgba(20, 20, 20, 0.3);
+
+
+}
+
+.buttons-container {
+    display: flex;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+.buttons-item {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    flex: 100%;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+
+}
+
+.text-area {
+    color: #052051;
+    font-size: 4rem;
+    background-color: #F3F5FC;
+    border: solid 0px transparent;
+}
+
+.text-area::placeholder {
+    color: #052051;
+
+}
+
+.text-area-container {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.logo-container {
+    margin: 10px;
+    display: flex;
+    color: #052051;
+    font-size:4rem;
+    justify-content: flex-start;
+}
+
+.message>span {
+    margin-left: 20px;
+    color: #343A40;
+}
+
+.image {
+    width: 30%;
+    height: 50%;
+
+}
+
+.title {
+    color: #343A40;
+    font-size: 4rem;
+    font-weight: 1200;
+}
+
+.message{
+   font-size: 3rem;
+}
+.subtitle {
+    color: #343A40;
+    font-size: 2.5rem;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1500px) {
+    .flex-container {
+        flex-direction: column;
+        
+    }
+
+    .flex-item-right{
+        flex: 40%;
+    }
+
+    .flex-item-left {
+        flex: 60%;
+    }
+
+    .buttons-container {
+       
+        margin: 15px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+   
+    .buttons-item {
+       padding: 10px;
+    
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 0;
+    
+    }
+
+    .message{
+        margin-top: 10px;
+    }
+    .image{
+        display: none;
+    }
+
+    .btn-encryp {
+
+        padding: 40px;
+        width: 750%;
+        font-size: 3rem;
+
+    }
+    
+    .btn-desencryp {
+        padding:40px;
+        width: 750%;
+        font-size: 3rem;
+    }
+
+}

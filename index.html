@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <div class="logo-container">
+                <h1>a</h1>
+            </div>
+
+            <div class="text-area-container">
+                <textarea class="text-area" rows="5" cols="30" placeholder="Ingrese el texto aqui" name="texto"
+                    id="text-prompt"></textarea>
+            </div>
+
+            <div class="footer-butttons">
+                <div class="message">
+                    <span> <img src="/src/alert.svg" width="15" alt=""> Solo letras minúsculas y sin acentos</span>
+
+                </div>
+                <div class="buttons-container">
+
+                    <div class="buttons-item">
+                        <button onclick="encriptar()" class="btn-encryp">Encriptar</button>
+                    </div>
+                    <div class="buttons-item">
+                        <button onclick="desencriptar()" class="btn-desencryp">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-item-right" id="not-found-text">
+            <div>
+
+               <img class="image" src="/src/uno.png" alt="">
+
+                <h4 class="title">Ningún mensaje fue encontrado</h4>
+
+                <span class="subtitle">Ingresa el texto qe desees encriptar o desencriptar.</span>
+            </div>
+        </div>
+        <div class="flex-item-right" id="found-text" style="display: none;">
+            <div>
+
+              
+
+                <h4 class="title" id="result_text">Ningún mensaje fue encontrado</h4>
+
+                <div class="buttons-item">
+                    <button onclick="copy()" class="btn-desencryp">COPY</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
