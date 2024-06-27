@@ -199,16 +199,16 @@ html {
 
     .btn-encryp {
 
-        padding: 40px;
-        width: 750%;
-        font-size: 3rem;
+        padding: 25px;
+        width: 75%;
+        font-size: 1.5rem;
 
     }
     
     .btn-desencryp {
-        padding:40px;
-        width: 750%;
-        font-size: 3rem;
+        padding:25px;
+        width: 75%;
+        font-size: 1.5rem;
     }
 
 }
